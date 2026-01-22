@@ -20,8 +20,7 @@
     <!-- TRANSLATE, BUT DON'T FORGET FORMAT -->
     <string name="player_speed_text_format" formatted="true">Tốc độ (%.2fx)</string>
     <string name="rated_format" formatted="true">Đánh giá: %.1f</string>
-    <string name="new_update_format" formatted="true">Đã tìm thấy bản cập nhật mới!
-\n%1$s -&gt; %2$s</string>
+    <string name="new_update_format" formatted="true">Đã tìm thấy bản cập nhật mới! \n%1$s -&gt; %2$s</string>
     <string name="filler" formatted="true">Bộ lọc</string>
     <string name="duration_format" formatted="true">%d phút</string>
     <string name="app_name">CloudStream</string>
@@ -107,7 +106,7 @@
     <string name="continue_watching">Tiếp tục xem</string>
     <string name="action_remove_watching">Loại bỏ</string>
     <string name="action_open_watching">Thông tin thêm</string>
-    <string name="action_open_play">@string/home_play</string>
+    <string name="action_open_play">\@string/home_play</string>
     <string name="vpn_might_be_needed">Bạn có thể sẽ cần sử dụng VPN để xem phim này</string>
     <string name="vpn_torrent">Phim này được chiếu dưới dạng Torrent. Hãy sử dụng VPN để xem</string>
     <string name="torrent_plot">Thông tin phim</string>
@@ -186,10 +185,8 @@
     <string name="resume">Tiếp Tục</string>
     <string name="go_back_30">-30</string>
     <string name="go_forward_30">+30</string>
-    <string name="delete_message">%s sẽ bị xoá vĩnh viễn
-\nBạn có chắc chắn muốn xóa?</string>
-    <string name="resume_time_left" formatted="true">%dm
-\ncòn lại</string>
+    <string name="delete_message">%s sẽ bị xoá vĩnh viễn \nBạn có chắc chắn muốn xóa?</string>
+    <string name="resume_time_left" formatted="true">%dm \ncòn lại</string>
     <string name="status_ongoing">Đang chiếu</string>
     <string name="status_completed">Hoàn Thành</string>
     <string name="status">Trạng Thái</string>
@@ -411,9 +408,7 @@
     <string name="plugins_downloaded" formatted="true">Đã tải: %d</string>
     <string name="plugins_disabled" formatted="true">Đã vô hiệu: %d</string>
     <string name="plugins_not_downloaded" formatted="true">Không tải: %d</string>
-    <string name="blank_repo_message">CloudStream không có sẵn trang web nào. Bạn cần cài đặt các trang web từ kho lưu trữ.
-\n
-\nHãy tham gia Discord của chúng tôi hoặc tìm kiếm trực tuyến.</string>
+    <string name="blank_repo_message">CloudStream không có sẵn trang web nào. Bạn cần cài đặt các trang web từ kho lưu trữ. \n \nHãy tham gia Discord của chúng tôi hoặc tìm kiếm trực tuyến.</string>
     <string name="view_public_repositories_button">Xem kho lưu trữ của cộng đồng</string>
     <string name="view_public_repositories_button_short">Danh sách công khai</string>
     <string name="uppercase_all_subtitles">In hoa toàn bộ phụ đề</string>
@@ -489,8 +484,7 @@
     <string name="apk_installer_legacy">Legacy</string>
     <string name="sort_updated_new">Đã cập nhật (Mới đến Cũ)</string>
     <string name="sort_updated_old">Đã cập nhật (Cũ đến Mới)</string>
-    <string name="empty_library_no_accounts_message">Thư viện của bạn đang trống :(
-\nĐăng nhập vào tài khoản thư viện hoặc thêm phim vào thư viện cục bộ.</string>
+    <string name="empty_library_no_accounts_message">Thư viện của bạn đang trống :( \nĐăng nhập vào tài khoản thư viện hoặc thêm phim vào thư viện cục bộ.</string>
     <string name="open_with">Mở với</string>
     <string name="provider_info_meta">Thông tin dữ liệu không được cung cấp bởi trang web, video sẽ không tìm thấy link nếu nó không tồn tại trên trang web.</string>
     <string name="apk_installer_package_installer">PackageInstaller</string>
@@ -518,8 +512,7 @@
     <string name="stop">Dừng lại</string>
     <string name="pref_category_bypass">Bỏ qua ISP</string>
     <string name="subscription_deleted">Đã bỏ đăng ký %s</string>
-    <string name="safe_mode_file">Tìm thấy tệp Safe mode!
-\nKhông tải bất cứ tiện ích mở rộng nào khi khởi động cho đến khi loại bỏ tệp.</string>
+    <string name="safe_mode_file">Tìm thấy tệp Safe mode! \nKhông tải bất cứ tiện ích mở rộng nào khi khởi động cho đến khi loại bỏ tệp.</string>
     <string name="revert">Đảo ngược lại</string>
     <string name="subscription_in_progress_notification">Đang cập nhật các phim đã đăng kí</string>
     <string name="jsdelivr_proxy_summary">Bỏ qua chặn đường link GitHub bằng cách dùng jsDelivr. Có thể gây ra việc cập nhật bị chậm vài ngày.</string>
@@ -536,13 +529,7 @@
     <string name="profiles">Hồ sơ</string>
     <string name="help">Trợ giúp</string>
     <string name="profile_background_des">Nền hồ sơ</string>
-    <string name="quality_profile_help">Tại đây bạn có thể thay đổi cách sắp xếp các nguồn. Nếu video có mức độ ưu tiên cao hơn thì video đó sẽ xuất hiện cao hơn trong lựa chọn nguồn. Tổng ưu tiên nguồn và ưu tiên chất lượng là ưu tiên video.
-\n
-\nNguồn A: 3
-\nChất lượng B: 7
-\nSẽ có mức độ ưu tiên video kết hợp là 10.
-\n
-\nLƯU Ý: Nếu tổng là 10 hoặc nhiều hơn, trình phát sẽ tự động bỏ tải khi liên kết đó được tải!</string>
+    <string name="quality_profile_help">Tại đây bạn có thể thay đổi cách sắp xếp các nguồn. Nếu video có mức độ ưu tiên cao hơn thì video đó sẽ xuất hiện cao hơn trong lựa chọn nguồn. Tổng ưu tiên nguồn và ưu tiên chất lượng là ưu tiên video. \n \nNguồn A: 3 \nChất lượng B: 7 \nSẽ có mức độ ưu tiên video kết hợp là 10. \n \nLƯU Ý: Nếu tổng là 10 hoặc nhiều hơn, trình phát sẽ tự động bỏ tải khi liên kết đó được tải!</string>
     <string name="qualities">Các chất lượng</string>
     <string name="already_voted">Bạn đã bình chọn</string>
     <string name="disable">Vô hiệu hoá</string>
@@ -553,11 +540,7 @@
     <string name="favorite_removed">%s đã loại bỏ khỏi mục yêu thích</string>
     <string name="favorites_list_name">Yêu thích</string>
     <string name="favorite_added">%s đã thêm vào mục yêu thích</string>
-    <string name="duplicate_message_multiple" formatted="true">Các mục có thể trùng lặp đã được tìm thấy trong thư viện của bạn:
-\n
-\n%s
-\n
-\nBạn vẫn muốn thêm mục này, thay thế những mục hiện có hay hủy hành động?</string>
+    <string name="duplicate_message_multiple" formatted="true">Các mục có thể trùng lặp đã được tìm thấy trong thư viện của bạn: \n \n%s \n \nBạn vẫn muốn thêm mục này, thay thế những mục hiện có hay hủy hành động?</string>
     <string name="backup_frequency">Tần suất sao lưu</string>
     <string name="duplicate_title">Đã tìm thấy bản sao tiềm năng</string>
     <string name="lock_profile">Khóa hồ sơ</string>
@@ -571,9 +554,7 @@
     <string name="action_subscribe">Đăng ký</string>
     <string name="action_remove_from_favorites">Loại bỏ khỏi mục yêu thích</string>
     <string name="select_an_account">Chọn một tài khoản</string>
-    <string name="duplicate_message_single">Có vẻ như một mục có khả năng trùng lặp đã tồn tại trong thư viện của bạn: \'%s.\'
-\n
-\nBạn vẫn muốn thêm mục này, thay thế mục hiện có hay hủy hành động?</string>
+    <string name="duplicate_message_single">Có vẻ như một mục có khả năng trùng lặp đã tồn tại trong thư viện của bạn: \'%s.\' \n \nBạn vẫn muốn thêm mục này, thay thế mục hiện có hay hủy hành động?</string>
     <string name="enter_pin">Nhập PIN</string>
     <string name="pin">PIN</string>
     <string name="enter_current_pin">Nhập mã PIN hiện tại</string>
@@ -605,8 +586,7 @@
     <string name="music_singlar">Nhạc</string>
     <string name="audio_book_singular">Sách nói</string>
     <string name="biometric_setting">Khóa với sinh trắc học</string>
-    <string name="resume_remaining" formatted="true">%s
-\ncòn lại</string>
+    <string name="resume_remaining" formatted="true">%s \ncòn lại</string>
     <string name="biometric_unsupported">Xác thực bằng sinh trắc học không được hỗ trợ trên thiết bị này</string>
     <string name="password_pin_authentication_title">Mật khẩu/PIN Xác thực</string>
     <string name="biometric_warning">Dữ liệu CloudStream của bạn hiện đã được sao lưu. Mặc dù khả năng xảy ra điều này là rất thấp nhưng tất cả các thiết bị đều có thể hoạt động khác nhau. Trong trường hợp hiếm gặp là bạn bị khóa truy cập ứng dụng, hãy xóa hoàn toàn dữ liệu ứng dụng và khôi phục từ bản sao lưu. Chúng tôi rất xin lỗi vì bất kỳ sự bất tiện nào phát sinh từ việc này.</string>
@@ -644,18 +624,10 @@
     <string name="deselect_all">Bỏ chọn tất cả</string>
     <string name="delete_files">Xoá các tệp</string>
     <string name="delete_format" formatted="true">Xoá (%1$d | %2$s)</string>
-    <string name="delete_message_multiple" formatted="true">Bạn có chắc chắn muốn xóa vĩnh viễn các mục sau không?
-\n
-\n%s</string>
-    <string name="delete_message_series_episodes" formatted="true">Bạn có chắc chắn muốn xóa vĩnh viễn các tập trong %1$s?
-\n
-\n%2$s</string>
-    <string name="delete_message_series_section" formatted="true">Bạn cũng sẽ xóa vĩnh viễn tất cả các tập trong loạt phim sau:
-\n
-\n%s</string>
-    <string name="delete_message_series_only" formatted="true">Bạn có chắc chắn muốn xóa vĩnh viễn tất cả các tập trong loạt phim này không?
-\n
-\n%s</string>
+    <string name="delete_message_multiple" formatted="true">Bạn có chắc chắn muốn xóa vĩnh viễn các mục sau không? \n \n%s</string>
+    <string name="delete_message_series_episodes" formatted="true">Bạn có chắc chắn muốn xóa vĩnh viễn các tập trong %1$s? \n \n%2$s</string>
+    <string name="delete_message_series_section" formatted="true">Bạn cũng sẽ xóa vĩnh viễn tất cả các tập trong loạt phim sau: \n \n%s</string>
+    <string name="delete_message_series_only" formatted="true">Bạn có chắc chắn muốn xóa vĩnh viễn tất cả các tập trong loạt phim này không? \n \n%s</string>
     <string name="delete_plugin">Xóa plugin</string>
     <string name="sort_release_date_old">Ngày phát hành (Cũ đến mới)</string>
     <string name="hide_player_control_names">Ẩn tên các nút điều khiển</string>
