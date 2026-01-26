@@ -18,11 +18,11 @@
     <string name="resize_zoom">Soo dhawee</string>
     <string name="all">Dhammaan</string>
     <string name="tracks">Muusik</string>
-    <string name="play_with_app_name">Ku daawo CloudStream</string>
+    <string name="play_with_app_name">Ku daawo MT-cloud</string>
     <string name="title_settings">Habaynta</string>
     <string name="filler" formatted="true">Buuxiye</string>
     <string name="home_change_provider_img_des">Beddel qaybiyaha</string>
-    <string name="app_name">Cloudstream</string>
+    <string name="app_name">MT-cloud</string>
     <string name="player_speed_text_format" formatted="true">Xawaaraha (%.2fx)</string>
     <string name="duration_format" formatted="true">%d dqq</string>
     <string name="title_home">Kadinka</string>

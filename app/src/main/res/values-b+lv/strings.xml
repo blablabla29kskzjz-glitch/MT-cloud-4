@@ -408,7 +408,7 @@
     <string name="view_public_repositories_button">Skatīt kopienas repozitorijus</string>
     <string name="view_public_repositories_button_short">Publiskais saraksts</string>
     <string name="uppercase_all_subtitles">Visi subtitri ar lielajiem burtiem</string>
-    <string name="download_all_plugins_from_repo">Uzmanību: CloudStream neuzņemas nekādu atbildību par trešo pušu papildinājumu izmantošanu un nesniedz nekādu tā atbalstu!</string>
+    <string name="download_all_plugins_from_repo">Uzmanību: MT-cloud neuzņemas nekādu atbildību par trešo pušu papildinājumu izmantošanu un nesniedz nekādu tā atbalstu!</string>
     <string name="single_plugin_disabled" formatted="true">%s (atspējots)</string>
     <string name="tracks">Tracks</string>
     <string name="audio_tracks">Audio dziesmas</string>
@@ -491,7 +491,7 @@
     <string name="quality_webrip">Web</string>
     <string name="quality_sdr">SDR</string>
     <string name="resolution">Rezulūcija</string>
-    <string name="blank_repo_message">CloudStream pēc noklusējuma nesatur, nav uzstādīts neviens repozitorijs. Lai izmantotu lietotni, obligāti jāpievieno vismaz viens repozitorijs, kas satur vismaz vienu papildinājumu. Repozitorijus var uzstādīt zem Iestatījumi. Tas viss pateicoties Sky UK Limited 🤮 bezsmadzeņu DMCA noņemšanas rīkojumam, kas liedz iekļaut repozitorijus lietotnē.\n\nPievienojieties mūsu Discord serverim vai meklējiet tiešsaistē.</string>
+    <string name="blank_repo_message">MT-cloud pēc noklusējuma nesatur, nav uzstādīts neviens repozitorijs. Lai izmantotu lietotni, obligāti jāpievieno vismaz viens repozitorijs, kas satur vismaz vienu papildinājumu. Repozitorijus var uzstādīt zem Iestatījumi. Tas viss pateicoties Sky UK Limited 🤮 bezsmadzeņu DMCA noņemšanas rīkojumam, kas liedz iekļaut repozitorijus lietotnē.\n\nPievienojieties mūsu Discord serverim vai meklējiet tiešsaistē.</string>
     <string name="batch_download_nothing_to_download_format" formatted="true">Viss %s jau ir lejupielādēts</string>
     <string name="repository_name_hint">Repozitorija nosaukums (pēc izvēles, neobligāti)</string>
     <string name="plugin_downloaded">Papildinājums lejupielādēts</string>
@@ -579,7 +579,7 @@
     <string name="result_search_tooltip">Meklēt citos papildinājumos</string>
     <string name="test_extensions">Pārbaudīt visus papildinājumus</string>
     <string name="test_extensions_summary">Šis tests ir paredzēts tikai izstrādātājiem, un tas neapstiprina vai nenoliedz papildinājumu funkcionalitāti.</string>
-    <string name="battery_dialog_message">Lai nodrošinātu nepārtrauktu abonēto TV pārraižu (seriālu un raidījumu) lejupielādi un paziņojumu saņemšanu, CloudStream nepieciešama darboties fonā atļauja. Noklikšķinot uz 𝙇𝙖𝙗𝙞, tiks parādīts vaicājumlogs. Lūdzu, noklikšķiniet uz \'Atļaut\'.\n\nLūdzu, nesatraucieties, ka piešķirot šo atļauja, CloudStream 3 sāks veikt pastāvīgu akumulatora izlādi. Tas tiks palaists fonā tikai nepieciešamības gadījumā, piemēram, saņemot paziņojumus vai lejupielādējot video no oficiālajiem papildinājumiem.</string>
+    <string name="battery_dialog_message">Lai nodrošinātu nepārtrauktu abonēto TV pārraižu (seriālu un raidījumu) lejupielādi un paziņojumu saņemšanu, MT-cloud nepieciešama darboties fonā atļauja. Noklikšķinot uz 𝙇𝙖𝙗𝙞, tiks parādīts vaicājumlogs. Lūdzu, noklikšķiniet uz \'Atļaut\'.\n\nLūdzu, nesatraucieties, ka piešķirot šo atļauja, MT-cloud 3 sāks veikt pastāvīgu akumulatora izlādi. Tas tiks palaists fonā tikai nepieciešamības gadījumā, piemēram, saņemot paziņojumus vai lejupielādējot video no oficiālajiem papildinājumiem.</string>
     <string name="delete_files">Dzēst datnes</string>
     <string name="quality_profile_help">Šeit jūs varat mainīt avotu atlases secību. Ja video ir augstāka prioritāte, tad tas tiks parādīts augstāk avotu atlases sarakstā. Avota prioritātes un kvalitātes prioritātes summa ir video prioritāte.\n\nAvots A: 3\nKvalitāte B: 7\nRezultātā kopējā video prioritātes summa ir 10.\n\nPIEZĪME: Ja kopējā summa ir vienāda ar 10 vai vairāk, atskaņotājs automātiski izlaidīs atskaņot, lejupielādēt video, kad šī saite ir ielādēta!</string>
     <string name="software_decoding_desc">Programmatūras (procesora) dekodēšana ļauj atskaņot video datnes, kuras jūsu ierīce neatbalsta. Taču var izraisīt aizkavētu vai nestabilu atskaņošanu video ar augstu izšķirtspēju, ja procesora veiktspēja ir neadekvāta.</string>

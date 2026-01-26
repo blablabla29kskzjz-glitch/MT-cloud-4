@@ -109,7 +109,7 @@
     <string name="home_next_random_img_des">அடுத்து ஏதாவது</string>
     <string name="browser">உலாவி</string>
     <string name="duration_format" formatted="true">%d நிமி</string>
-    <string name="play_with_app_name">CloudStream-உடன் இயக்கு</string>
+    <string name="play_with_app_name">MT-cloud-உடன் இயக்கு</string>
     <string name="new_update_format" formatted="true">புதிய புதுப்பிப்பு உள்ளது\n%1$s-&gt;%2$s</string>
     <string name="filler" formatted="true">நிரப்பி</string>
     <string name="search_poster_img_des">போச்டர்</string>
