@@ -509,9 +509,7 @@
     <string name="plugins_disabled" formatted="true">Disabled: %d</string>
     <string name="plugins_not_downloaded" formatted="true">Not downloaded: %d</string>
     <string name="plugins_updated" formatted="true">Updated %d plugins</string>
-    <string name="blank_repo_message">MT-cloud has no sites installed by default. You need to install the sites from repositories.
-\n
-\nJoin our Discord or search online.</string>
+    <string name="blank_repo_message">MT-cloud has no sites installed by default. You need to install the sites from repositories.\n\nJoin our Discord or search online.</string>
     <string name="view_public_repositories_button">View community repositories</string>
     <string name="view_public_repositories_button_short">Public list</string>
     <string name="uppercase_all_subtitles">Uppercase all subtitles</string>
@@ -565,10 +563,7 @@
     <string name="dismiss">Dismiss</string>
     <string name="open_downloaded_repo">Open repository</string>
     <string name="battery_dialog_title">Disable Battery optimization</string>
-    <string name="battery_dialog_message">To ensure uninterrupted downloads and notifications for subscribed
-        TV shows, MT-cloud needs permission to run in background. By pressing "OK", you\'ll be shown a request dialog.
-        Please press \'Allow\'.\n\nPlease note, this permission does not mean CS3 will drain your battery. It will only operate in the background when necessary, such as
-        when receiving notifications or downloading videos from official extensions.</string>
+    <string name="battery_dialog_message">To ensure uninterrupted downloads and notifications for subscribed TV shows, MT-cloud needs permission to run in background. By pressing \"OK\", you\'ll be shown a request dialog. Please press \'Allow\'.\n\nPlease note, this permission does not mean MT-cloud will drain your battery. It will only operate in the background when necessary, such as when receiving notifications or downloading videos from official extensions.</string>
     <string name="app_unrestricted_toast">App battery usage is already set to unrestricted</string>
     <string name="app_info_intent_error">Unable to open MT-cloud\'s App info.</string>
     <string name="update_notification_downloading">Downloading app update…</string>
