@@ -8,8 +8,11 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
-    - uses: actions/checkout@v4
+    - name: Checkout Repository
+      uses: actions/checkout@v4
       with:
         fetch-depth: 0
 
@@ -25,13 +28,28 @@ jobs:
 
     - name: Build Debug APK
       run: ./gradlew assembleDebug --stacktrace
+      env:
+        # On désactive les vérifications de signature strictes pour le build debug si nécessaire
+        # mais assembleDebug génère normalement un APK signé avec la clé de debug par défaut
+        CI: true
 
-    - name: Create Release
-      uses: marvinpinto/action-automatic-releases@latest
+    - name: Verify APK Generation
+      run: |
+        echo "Vérification des fichiers APK générés..."
+        ls -R app/build/outputs/apk/
+        if [ -z "$(find app/build/outputs/apk/debug -name "*.apk")" ]; then
+          echo "ERREUR: Aucun APK n'a été généré !"
+          exit 1
+        fi
+
+    - name: Create GitHub Release
+      uses: softprops/action-gh-release@v2
       with:
-        repo_token: "${{ secrets.GITHUB_TOKEN }}"
-        automatic_release_tag: "latest"
+        tag_name: latest
+        name: "MT-cloud-4 Release (Auto-Build)"
+        draft: false
         prerelease: false
-        title: "MT-cloud-4 Release"
         files: |
           app/build/outputs/apk/debug/*.apk
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
