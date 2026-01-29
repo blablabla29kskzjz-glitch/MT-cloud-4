@@ -1,4 +1,4 @@
-name: MT-cloud Build APK
+name: MT-cloud-4 Build and Release
 
 on:
   push:
@@ -23,11 +23,15 @@ jobs:
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
 
-    - name: Clean and Build Debug APK
-      run: ./gradlew clean assembleDebug --stacktrace
+    - name: Build Debug APK
+      run: ./gradlew assembleDebug --stacktrace
 
-    - name: Upload APK
-      uses: actions/upload-artifact@v4
+    - name: Create Release
+      uses: marvinpinto/action-automatic-releases@latest
       with:
-        name: MT-cloud-debug
-        path: app/build/outputs/apk/debug/*.apk
+        repo_token: "${{ secrets.GITHUB_TOKEN }}"
+        automatic_release_tag: "latest"
+        prerelease: false
+        title: "MT-cloud-4 Release"
+        files: |
+          app/build/outputs/apk/debug/*.apk

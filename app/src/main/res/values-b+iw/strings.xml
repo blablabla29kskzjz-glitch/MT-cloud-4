@@ -10,7 +10,7 @@
 \n%1$s -&gt; %2$s</string>
     <string name="filler" formatted="true">סינון</string>
     <string name="duration_format" formatted="true">%d דקות</string>
-    <string name="app_name">MT-cloud</string>
+    <string name="app_name">MT-cloud-4</string>
     <string name="title_home">בית</string>
     <string name="title_search">חיפוש</string>
     <string name="title_downloads">הורדות</string>
@@ -70,7 +70,7 @@
     <string name="sort_clear">נקה</string>
     <string name="sort_save">לשמור</string>
     <string name="app_dub_sub_episode_text_format" formatted="true">%1$s פרק %2$d</string>
-    <string name="play_with_app_name">נגן עם MT-cloud</string>
+    <string name="play_with_app_name">נגן עם MT-cloud-4</string>
     <string name="next_episode">פרק הבא</string>
     <string name="loading">טוען…</string>
     <string name="type_watching">צופה</string>
@@ -444,7 +444,7 @@
     <string name="plugins_downloaded" formatted="true">הורד: %d</string>
     <string name="plugins_disabled" formatted="true">מוגבל: %d</string>
     <string name="plugins_not_downloaded" formatted="true">לא מורד: %d</string>
-    <string name="blank_repo_message">לMT-cloud אין אתרים מותקנים כברירת מחדל. עליכם להתקין את האתרים ממאגרים.
+    <string name="blank_repo_message">לMT-cloud-4 אין אתרים מותקנים כברירת מחדל. עליכם להתקין את האתרים ממאגרים.
 \n
 \nבגלל הסרת DMCA על ידי Sky UK LImited 🤮 אנחנו לא יכולים לקשר את אתר המאגרים באפליקציה.
 \n

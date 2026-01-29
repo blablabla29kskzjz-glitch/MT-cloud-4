@@ -129,7 +129,7 @@
     <string name="action_remove_watching">Pašalinti</string>
     <string name="action_open_watching">Daugiau informacijos</string>
     <string name="type_on_hold">Sustabdyta</string>
-    <string name="app_name">MT-cloud</string>
+    <string name="app_name">MT-cloud-4</string>
     <string name="home_play">Paleisti</string>
     <string name="livestreams">Gyvos transliacijos</string>
     <string name="apk_installer_settings">APK įrašymas</string>
@@ -139,7 +139,7 @@
     <string name="app_language">Programos kalba</string>
     <string name="sort_close">Uždaryti</string>
     <string name="action_add_to_bookmarks">Nustatyti žiūrėjimo statusą</string>
-    <string name="play_with_app_name">Paleisti su MT-cloud</string>
+    <string name="play_with_app_name">Paleisti su MT-cloud-4</string>
     <string name="subs_subtitle_elevation">Subtitrų iškėlimas</string>
     <string name="episodes">Serijos</string>
     <string name="cast_format" formatted="true">Skleisti: %s</string>
@@ -181,7 +181,7 @@
     <string name="example_ip">127.0.0.1</string>
     <string name="batch_download_finish_format" formatted="true">Atsiųsta %1$d %2$s</string>
     <string name="skip_type_format" formatted="true">Praleisti %s</string>
-    <string name="blank_repo_message">Pagal numatytuosius nustatymus „MT-cloud“ neturi įdiegtų svetainių. Turite įdiegti svetaines iš saugyklų.
+    <string name="blank_repo_message">Pagal numatytuosius nustatymus „MT-cloud-4“ neturi įdiegtų svetainių. Turite įdiegti svetaines iš saugyklų.
 \n
 \nDėl beprotiško DMCA reikalavimų, kurios atliko Sky UK Limited 🤮, negalime susieti saugyklos svetainės programoje.
 \n
